@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_evento"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:strokeColor="@color/md_theme_tertiary_highContrast"
+    app:strokeWidth="1dp"
+    app:cardBackgroundColor="@color/md_theme_onPrimaryFixed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Tipo de evento -->
+        <TextView
+            android:id="@+id/tv_tipo"
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo Evento"
+            android:textColor="@color/md_theme_onPrimary" />
+
+        <!-- Horario y lugar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/tv_hora"
+                style="@style/TextAppearance.Material3.BodyMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hora"
+                android:textColor="@color/md_theme_onPrimary"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/tv_lugar"
+                style="@style/TextAppearance.Material3.BodyMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lugar"
+                android:textColor="@color/md_theme_onPrimary" />
+        </LinearLayout>
+
+        <!-- Detalle 1 -->
+        <TextView
+            android:id="@+id/tv_detalle1"
+            style="@style/TextAppearance.Material3.BodySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detalle 1"
+            android:textColor="@color/md_theme_onPrimary"
+            android:layout_marginTop="6dp" />
+
+        <!-- Detalle 2 -->
+        <TextView
+            android:id="@+id/tv_detalle2"
+            style="@style/TextAppearance.Material3.BodySmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detalle 2"
+            android:textColor="@color/md_theme_onPrimary"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

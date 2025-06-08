@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IngeWeek App</string>
+    <string name="agenda">Agenda</string>
+    <string name="competencias">Competencias</string>
+    <string name="seminarios">Seminarios</string>
+    <string name="ubicaciones">Ubicaciones</string>
+    <string name="Lunes">Lunes</string>
+    <string name="Martes">Martes</string>
+    <string name="Miercoles">Miércoles</string>
+    <string name="Jueves">Jueves</string>
+    <string name="Viernes">Viernes</string>
+    <string name="filtrar">Filtrar</string>
+
+</resources>
